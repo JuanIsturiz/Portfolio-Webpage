@@ -62,6 +62,10 @@ section {
   list-style: none;
 }
 
+.navlist #bonus {
+  color: pink;
+}
+
 /* about me section stuff  */
 #about-me-container .content {
   display: flex;
@@ -92,9 +96,21 @@ section {
   margin-left: 1rem;
 }
 
+.list-container {
+  width: 18rem;
+}
+
+.list-container:last-child {
+  width: auto;
+}
+
 .list-container ul {
   list-style: none;
   margin-left: 0.75rem;
+}
+
+.list-container a {
+  font-weight: 500;
 }
 
 .list-item {
@@ -183,6 +199,11 @@ footer {
 
   body {
     width: 95%;
+  }
+
+  /* navlist stuff */
+  .navlist {
+    gap: .75rem;
   }
 
   /* about me section stuff  */
