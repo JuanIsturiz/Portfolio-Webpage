@@ -35,7 +35,7 @@ githubIcon.onclick = () => {
 
 //Random project stuff
 const randomButton = document.getElementById('random-project-button');
-const links = ['https://github.com/JuanIsturiz/Mixed-Messages', 'https://github.com/JuanIsturiz/Survey-Form', 'https://github.com/JuanIsturiz/Technical-Documentation-Page', 'https://github.com/JuanIsturiz/Tribute-Page', 'https://github.com/JuanIsturiz/Portfolio-Webpage'];
+const links = ['https://github.com/JuanIsturiz/Mixed-Messages', 'https://github.com/JuanIsturiz/Mixed-Messages-With-HTML', 'https://github.com/JuanIsturiz/Survey-Form', 'https://github.com/JuanIsturiz/Technical-Documentation-Page', 'https://github.com/JuanIsturiz/Tribute-Page', 'https://github.com/JuanIsturiz/Portfolio-Webpage'];
 
 const random = num => {
   let random = Math.floor(Math.random() * num.length);
