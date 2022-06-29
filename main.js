@@ -19,6 +19,11 @@ for (let i = 0; i < projectLinksJs.length; i++) {
   };
 }
 
+// Portfolio project alert
+const portfolioProject = document.getElementById('portfolio-link');
+portfolioProject.onclick = () => {
+  window.alert(`You're already in this project!!`)
+}
 // Mistery contact me stuff
 const githubIcon = document.getElementById('github-icon');
 const mailIcon = document.getElementById('mail-icon');

@@ -109,7 +109,7 @@ section {
   margin-left: 0.75rem;
 }
 
-.list-container a {
+.list-container a, p {
   font-weight: 500;
 }
 
@@ -122,6 +122,13 @@ section {
   margin-left: 0.5rem;
 }
 
+#portfolio p {
+  display: inline;
+}
+
+#portfolio p:hover {
+  cursor: pointer;
+}
 /* skills section stuff */
 #skills .icon-list {
   position: absolute;
