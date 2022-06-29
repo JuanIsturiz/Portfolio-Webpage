@@ -1,9 +1,9 @@
 //Projects links stuff
-const icons = ['survey-arrow', 'tribute-arrow', 'tdp-arrow', 'mixed-arrow', 'portfolio-arrow'];
+const icons = ['survey-arrow', 'tribute-arrow', 'tdp-arrow', 'mixed-arrow', 'mixed-html-arrow', 'portfolio-arrow'];
 const iconsJs = [];
 icons.forEach(icon => { iconsJs.push(document.getElementById(icon)) });
 
-const projectLinks = ['survey-link', 'tribute-link', 'tdp-link', 'mixed-link', 'portfolio-link'];
+const projectLinks = ['survey-link', 'tribute-link', 'tdp-link', 'mixed-link', 'mixed-html-link', 'portfolio-link'];
 const projectLinksJs = [];
 projectLinks.forEach(link => { projectLinksJs.push(document.getElementById(link)) });
 
