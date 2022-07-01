@@ -1,9 +1,9 @@
 //Projects links stuff
-const icons = ['survey-arrow', 'tribute-arrow', 'tdp-arrow', 'mixed-arrow', 'mixed-html-arrow', 'portfolio-arrow'];
+const icons = ['survey-arrow', 'tribute-arrow', 'tdp-arrow', 'plp-arrow', 'mixed-arrow', 'mixed-html-arrow', 'portfolio-arrow'];
 const iconsJs = [];
 icons.forEach(icon => { iconsJs.push(document.getElementById(icon)) });
 
-const projectLinks = ['survey-link', 'tribute-link', 'tdp-link', 'mixed-link', 'mixed-html-link', 'portfolio-link'];
+const projectLinks = ['survey-link', 'tribute-link', 'tdp-link', 'plp-link', 'mixed-link', 'mixed-html-link', 'portfolio-link'];
 const projectLinksJs = [];
 projectLinks.forEach(link => { projectLinksJs.push(document.getElementById(link)) });
 
@@ -40,7 +40,7 @@ githubIcon.onclick = () => {
 
 //Random project stuff
 const randomButton = document.getElementById('random-project-button');
-const links = ['https://github.com/JuanIsturiz/Mixed-Messages', 'https://github.com/JuanIsturiz/Mixed-Messages-With-HTML', 'https://github.com/JuanIsturiz/Survey-Form', 'https://github.com/JuanIsturiz/Technical-Documentation-Page', 'https://github.com/JuanIsturiz/Tribute-Page', 'https://github.com/JuanIsturiz/Portfolio-Webpage'];
+const links = ['https://github.com/JuanIsturiz/Mixed-Messages', 'https://github.com/JuanIsturiz/Mixed-Messages-With-HTML', 'https://github.com/JuanIsturiz/Survey-Form', 'https://github.com/JuanIsturiz/Technical-Documentation-Page', 'https://github.com/JuanIsturiz/Tribute-Page', 'https://github.com/JuanIsturiz/Product-Landing-Page', 'https://github.com/JuanIsturiz/Portfolio-Webpage'];
 
 const random = num => {
   let random = Math.floor(Math.random() * num.length);
