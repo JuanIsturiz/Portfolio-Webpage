@@ -18,11 +18,13 @@
         <nav>
           <div class="navbar">
             <ul class="navlist">
-              <li><a href="#about-me">About Me</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#random-project" id="bonus">Bonus</a></li>
+              <li><a id="about-me-link" href="#about-me">About Me</a></li>
+              <li><a id="projects-link" href="#projects">Projects</a></li>
+              <li><a id="skills-link" href="#skills">Skills</a></li>
+              <li><a id="contact-link" href="#contact">Contact</a></li>
+              <li>
+                <a id="random-project-link" href="#random-project">Bonus</a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -33,7 +35,7 @@
         <div id="about-me-container">
           <div class="content">
             <div class="description">
-              <h2>About Me</h2>
+              <h2 id="about-me-header">About Me</h2>
               <p>
                 Hello I'm Juan Isturiz AKA: Dunkelnn, im 23 years old, I'm a
                 Software Engineer at the UBA from Venezuela. I'm currently
@@ -61,7 +63,7 @@
       </section>
       <section id="projects">
         <div id="projects-container">
-          <h2>Projects</h2>
+          <h2 id="projects-header">Projects</h2>
           <div class="content">
             <div class="list-container">
               <h3>FreeCodeCamp Projects</h3>
@@ -113,7 +115,17 @@
                     >
                   </li>
                 </div>
-
+                <div class="list-item">
+                  <i id="pp-arrow" class="fa-solid fa-arrow-right-long"></i>
+                  <li>
+                    <a
+                      href="./other-projects/personal-portfolio/index.html"
+                      id="pp-link"
+                      target="_blank"
+                      >Personal Portfolio</a
+                    >
+                  </li>
+                </div>
               </ul>
             </div>
             <div class="list-container">
@@ -163,21 +175,21 @@
       </section>
       <section id="skills">
         <div class="skills-container">
-          <h2>Skills</h2>
+          <h2 id="skills-header">Skills</h2>
           <div class="icon-list">
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-js-square"></i>
-            <i class="fa-brands fa-git"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-solid fa-terminal"></i>
-            <i class="fa-brands fa-chrome"></i>
+            <i class="fa-brands fa-html5" title="HTML"></i>
+            <i class="fa-brands fa-css3-alt" title="CSS"></i>
+            <i class="fa-brands fa-js-square" title="JAVASCRIPT"></i>
+            <i class="fa-brands fa-git" title="GIT BASH"></i>
+            <i class="fa-brands fa-github" title="GITHUB"></i>
+            <i class="fa-solid fa-terminal" title="TERMINAL"></i>
+            <i class="fa-brands fa-chrome" title="CHROME DEVELOPER TOOLS"></i>
           </div>
         </div>
       </section>
       <section id="contact">
         <div class="contact-container">
-          <h2>Contact</h2>
+          <h2 id="contact-header">Contact</h2>
           <p>Wanna contact me? Select one of the following methods.</p>
           <div class="content">
             <div class="icon-list">
@@ -192,7 +204,7 @@
       </section>
       <section id="random-project">
         <div class="random-project-container">
-          <h2>Random Project</h2>
+          <h2 id="random-project-header">Random Project</h2>
           <p>Press the button to get one of my random project repositories.</p>
           <button id="random-project-button">Click me!</button>
         </div>
